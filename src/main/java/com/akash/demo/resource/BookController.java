@@ -71,6 +71,7 @@ public class BookController {
 //
 //   }
 	@GetMapping("/books")
+	@GetMapping("/books")
 	public List<Book> getBooks() {
 		/*Query query=new Query().addCriteria(Criteria.where("bookName").is("akas"));
 		return mongoTemplate.find(query,Book.class);*/
